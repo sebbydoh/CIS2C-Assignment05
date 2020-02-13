@@ -25,7 +25,7 @@ function sum(values){
 
     let sumAmount = 0;
 
-    for(let c = 0; c <= values.length  - 1; c++){
+    for(let c = 0; c <= values.length - 1; c++){
         sumAmount += values[c];
     }
     return sumAmount;
@@ -46,3 +46,11 @@ console.log(sum(range(1,5)));
 // let arrayValue = [1, 2, 3, 4, 5];
 // reverseArrayInPlace(arrayValue);
 // console.log(arrayValue); // outputs [5, 4, 3, 2, 1]
+
+function reverseArray(){
+
+}
+
+function reverseArrayInPlace(){
+
+}
