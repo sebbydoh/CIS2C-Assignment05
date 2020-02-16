@@ -47,10 +47,15 @@ console.log(sum(range(1,5)));
 // reverseArrayInPlace(arrayValue);
 // console.log(arrayValue); // outputs [5, 4, 3, 2, 1]
 
-function reverseArray(){
+function reverseArray(a){
 
+    let order = [];
+
+    for(let alpha = a.length - 1; alpha >= 0; alpha--){
+        order.push(a[alpha]);
+    } 
+    return order;
 }
 
-function reverseArrayInPlace(){
+console.log(reverseArray(["A", "B", "C"]));
 
-}
